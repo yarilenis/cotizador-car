@@ -1,9 +1,20 @@
+// Libraries
+@import '~bootstrap/scss/bootstrap';
+
+// Local styles
+@import "layout/index";
+@import "components/index";
+@import "pages/index";
+
 .App {
   text-align: center;
+  p {
+    color: red;
+  }
 }
 
 .App-logo {
-  height: 40vmin;
+  height: 50px;
   pointer-events: none;
 }
 
