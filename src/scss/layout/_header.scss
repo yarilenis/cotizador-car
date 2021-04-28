@@ -1,0 +1,14 @@
+.navbar {
+  &__logo {
+    img {
+      height: 20px;
+    }
+  }
+  &__phone {
+    color: #676F8F;
+  }
+  &__icon {
+    width: 15px;
+    margin-right: 5px;
+  }
+}
